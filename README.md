@@ -18,7 +18,7 @@ projects, the same shared-repository model used by
 
 Each source project's own release workflow is responsible for adding or updating its
 formula here on every tagged release, authenticated with a PAT stored as a secret in
-that project's own repository (e.g. `scootship/scootship` uses `HOMEBREW_TAP_TOKEN`).
+that project's own repository (e.g. `scootship/scootship` uses `SCOOTSHIP_RELEASE_TOKEN`).
 This repository itself has no build step — a formula update is just a normal commit to
 a `.rb` file under `Formula/`.
 
