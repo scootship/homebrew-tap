@@ -1,26 +1,26 @@
 class Scootlens < Formula
   desc "Programmable web runtime for AI agents: kernel daemon, CLI, MCP projection"
   homepage "https://github.com/scootship/scootlens"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/scootship/scootlens/releases/download/v0.1.0/scootlens-v0.1.0-macos-arm64.tar.gz"
-      sha256 "09e89726adc1576a5debb720f7f35da1ff9aed69a06a2ce5ef3760b94dbc7090"
+      url "https://github.com/scootship/scootlens/releases/download/v0.2.0/scootlens-v0.2.0-macos-arm64.tar.gz"
+      sha256 "601b1cc7be82ad416af1eb8425517faf9e42d1ed504f319b655521fb23269834"
     else
-      url "https://github.com/scootship/scootlens/releases/download/v0.1.0/scootlens-v0.1.0-macos-amd64.tar.gz"
-      sha256 "d657d7dd6fe578790bfa761d5608328dcf5aec596db98e14025b30564c197394"
+      url "https://github.com/scootship/scootlens/releases/download/v0.2.0/scootlens-v0.2.0-macos-amd64.tar.gz"
+      sha256 "2bf625470d15719e684770ea61bcf93c4bdbc310974c77e7949c3bcb32cab4d2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/scootship/scootlens/releases/download/v0.1.0/scootlens-v0.1.0-linux-arm64.tar.gz"
-      sha256 "717f8f3fd15812fb1419610b598811153e4a215ecf20180c46e235bdde016291"
+      url "https://github.com/scootship/scootlens/releases/download/v0.2.0/scootlens-v0.2.0-linux-arm64.tar.gz"
+      sha256 "6068478fcff9c5f85b07999267f9a3417032b25a78c718e199c60e1e8ab6338d"
     else
-      url "https://github.com/scootship/scootlens/releases/download/v0.1.0/scootlens-v0.1.0-linux-amd64.tar.gz"
-      sha256 "099067af093539e9b7692d839f54ee0c2325431847bf1bbf6f21308db326d17d"
+      url "https://github.com/scootship/scootlens/releases/download/v0.2.0/scootlens-v0.2.0-linux-amd64.tar.gz"
+      sha256 "1359ab708c629ac48a48dba2519bde126841ef32edb54484106107f2dc0870ee"
     end
   end
 
